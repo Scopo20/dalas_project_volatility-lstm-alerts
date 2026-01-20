@@ -1,2 +1,20 @@
-# dalas__project_volatility-lstm-alerts
-High-precision LSTM alert system for short-term market volatility (±2.5% moves over 2 days). Achieves 67.8% binary precision (76.9% directional rises) via threshold optimization &amp; backtesting (1.21% expected return/trade). Reframed from directional prediction to actionable volatility detection for better risk management &amp; trading signals.
+# Volatility LSTM Alerts
+
+High-precision LSTM-based alert system for short-term market volatility forecasting.
+
+### Key Results
+- 67.8% binary precision for detecting ±2.5% moves over 2 days  
+- 76.9% precision on directional rises  
+- Backtested expected return: 1.21% per trade  
+
+### Overview
+Short-term directional prediction is difficult (<53% accuracy initially). This project reframes the task as detecting significant volatility events (±2.5% over 2 days) — a more actionable goal for risk management. An LSTM model with threshold optimization prioritizes high-confidence signals, delivering practical trading value.
+
+### Tech Stack
+- Python (TensorFlow/Keras, Pandas, NumPy, scikit-learn)  
+- Time-series preprocessing & feature engineering  
+- Threshold optimization & backtesting  
+
+### Files
+- dalas-project.ipynb → full analysis & training  
+- report.pdf → complete report
